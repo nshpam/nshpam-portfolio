@@ -25,7 +25,7 @@ export default function FeaturedProjects() {
         />{" "}
         {content.map((data, index) => {
           return (
-            <Link href={data.href} target="_blank">
+            <Link href={data.href} target="_blank" key={index}>
               <FeaturedProject content={data} index={index} key={index} />
             </Link>
           );
