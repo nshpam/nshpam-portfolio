@@ -28,16 +28,30 @@ export default function About() {
     <Section classProp={about.section}>
       <Container spacing={["verticalXXXLrg"]}>
         <SectionTitle
+          id="about"
           title="About Me"
           preTitle="Synopsis"
-          subTitle="I specialize in full-stack web applications using JavaScript, Python, React, and TypeScript. With strengths in fast learning, creativity, and leadership, I thrive in dynamic environments where innovation and collaboration are key."
+          subTitle="I specialize in web development using JavaScript, Python, React, and TypeScript. With strengths in fast learning, creativity, and leadership, I thrive in dynamic environments where innovation and collaboration are key."
         />
-        {/* <section className={about.content}> */}
-        {/* <div className={about.image}> */}
-        {/* <img src="/img/family-photo.jpg" alt="Nelson family photo" /> */}
-        {/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
-        {/* </div> */}
-        {/* <div className={about.copy}>
+        <section className={about.content}>
+          {/* <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        > */}
+          <div className={about.image}>
+            <Image
+              src="/img/me.jpg"
+              alt="Nelson family photo"
+              width={350}
+              height={400}
+            />
+            {/* </div> */}
+          </div>
+
+          {/* <div className={about.copy}>
             <CopyBlock
               title="Softskills that pay the bills"
               containerClass={about.container}
@@ -57,7 +71,7 @@ export default function About() {
               headerIcon={`${about.icon}`}
             />
           </div> */}
-        {/* </section> */}
+        </section>
       </Container>
     </Section>
   );

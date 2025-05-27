@@ -28,29 +28,40 @@ export default function Technical() {
     <Section classProp={`${about.section} borderBottom`}>
       <Container spacing={["verticalXXXLrg"]}>
         <SectionTitle
-          title="Technical"
-          preTitle="Hardskills"
+          id="skill"
+          title="Skills"
+          preTitle="Proficiency"
           subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
         />
         <section className={`${about.content} ${about.container}`}>
           <div className={about.copy}>
-            {/* <BadgesBlock
-              title="Software I love to work with"
-              copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
-              list={software}
-              block="software"
-              fullContainer="fullContainer"
-              icon="grid-2-plus"
-              containerClass={about.container}
-              headerIcon={about.icon}
-            /> */}
             <BadgesBlock
-              title="Technologies I love to build with"
-              copy="With a strong foundation in software development and hands-on experience from real-world projects and internships, I’ve developed a keen eye for how great software interfaces are built. Here are some of the tools and technologies I’ve enjoyed working with along the way."
-              list={tech}
+              title="Programming Languagues"
+              copy=""
+              list={lang}
               block="tech"
               fullContainer="fullContainer"
               icon="laptop-code"
+              containerClass={about.container}
+              headerIcon={about.icon}
+            />
+            <BadgesBlock
+              title="Technologies"
+              copy=""
+              list={frameworks}
+              block="tech"
+              fullContainer="fullContainer"
+              icon="frame"
+              containerClass={about.container}
+              headerIcon={about.icon}
+            />
+            <BadgesBlock
+              title="Languages"
+              copy=""
+              list={language}
+              block="tech"
+              fullContainer="fullContainer"
+              icon="language"
               containerClass={about.container}
               headerIcon={about.icon}
             />
@@ -70,32 +81,40 @@ export default function Technical() {
   );
 }
 
-const software = [
-  { key: "photoshop", name: "Photoshop", type: "devicon" },
-  { key: "illustrator", name: "Illustrator", type: "devicon" },
-  { key: "figma", name: "Figma", type: "devicon" },
-  { key: "vscode", name: "VSCode", type: "devicon" },
-  { key: "mailbox", name: "Postman", type: "fas" },
-  { key: "computer-mouse", name: "Click Up", type: "fas" },
-  { key: "list-music", name: "Ableton", type: "fas" },
-  { key: "aftereffects", name: "After Effects", type: "devicon" },
-  { key: "premierepro", name: "Premiere Pro", type: "devicon" },
+const language = [
+  { key: "kotlin", name: "English (TOEIC 875)", type: "devicon" },
+  { key: "kotlin", name: "Thai (Native)", type: "devicon" },
 ];
 
-const tech = [
+const lang = [
+  { key: "python", name: "Python", type: "devicon" },
   { key: "javascript", name: "JavaScript", type: "devicon" },
-  { key: "nodejs", name: "NodeJS", type: "devicon" },
+  { key: "typescript", name: "Typescript", type: "devicon" },
+  { key: "cplusplus", name: "C++", type: "devicon" },
+  { key: "mysql", name: "SQL", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },
-  //   { key: "nextjs", name: "NextJS", type: "devicon" },
-  { key: "jquery", name: "jQuery", type: "devicon" },
   { key: "php", name: "PHP", type: "devicon" },
-  //   { key: "wordpress", name: "WordPress", type: "devicon" },
-  //   { key: "woocommerce", name: "WooCommerce", type: "devicon" },
-  //   { key: "google", name: "GA4/GTM", type: "devicon" },
   { key: "html5", name: "HTML5", type: "devicon" },
   { key: "css3", name: "CSS3", type: "devicon" },
-  //   { key: "sass", name: "SASS", type: "devicon" },
-  { key: "git", name: "Git", type: "devicon" },
-  { key: "mysql", name: "MySQL", type: "devicon" },
-  { key: "mongodb", name: "MongoDB", type: "devicon" },
+  { key: "dart", name: "Dart", type: "devicon" },
+];
+
+const frameworks = [
+  { key: "react", name: "react", type: "devicon" },
+  { key: "nodejs", name: "nodejs", type: "devicon" },
+  { key: "mongodb", name: "mongodb", type: "devicon" },
+  { key: "express", name: "expressjs", type: "devicon" },
+  { key: "git", name: "git", type: "devicon" },
+  { key: "docker", name: "docker", type: "devicon" },
+  { key: "amazonwebservices", name: "aws", type: "devicon" },
+  { key: "mysql", name: "mysql", type: "devicon" },
+  { key: "bootstrap", name: "bootstrap", type: "devicon" },
+  { key: "tailwindcss", name: "tailwindcss", type: "devicon" },
+  { key: "tailwindcss", name: "chakraui", type: "devicon" },
+  { key: "tailwindcss", name: "daisyui", type: "devicon" },
+  { key: "django", name: "django", type: "devicon" },
+  { key: "flutter", name: "flutter", type: "devicon" },
+  { key: "firebase", name: "firebase", type: "devicon" },
+  { key: "arduino", name: "arduino", type: "devicon" },
+  { key: "graphql", name: "graphql", type: "devicon" },
 ];

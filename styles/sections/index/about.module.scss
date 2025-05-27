@@ -117,15 +117,15 @@
 
     // Columns
     .image {
-      flex-basis: 50%;
-      flex-grow: 1;
-      flex-shrink: 1;
-      position: relative;
+      display: flex;
+      justify-content: "center";
+      align-items: "center";
+      // position: relative;
 
       img {
-        height: 100%;
-        width: auto;
-        aspect-ratio: 3/4;
+        // height: 50%;
+        // width: auto;
+        // aspect-ratio: 3/4;
         object-fit: cover;
         border-radius: 2rem;
       }

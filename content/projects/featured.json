@@ -3,10 +3,10 @@
     "project": "Bifrost",
     "url": "https://github.com/nshpam/TomAndJourney?tab=readme-ov-file",
     "repo": "Private",
-    "descriptionTitle": "Smart Warehouse Management System.",
+    "descriptionTitle": "Smart Warehouse Management System (SCG)",
     "description": "",
     "imageOptions": [],
-    "href": "#",
+    "href": "https://drive.google.com/file/d/1cZF5B-hAWmg0avIbZeX_br89rCAUTH6w/view?usp=sharing",
     "images": [
       {
         "key": "mock-stack",
@@ -17,11 +17,17 @@
       }
     ],
     "stack": [
-      { "key": "react", "name": "react", "type": "devicon" },
       { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "react", "name": "react", "type": "devicon" },
       { "key": "python", "name": "python", "type": "devicon" },
+      { "key": "django", "name": "django", "type": "devicon" },
       { "key": "html5", "name": "HTML5", "type": "devicon" },
       { "key": "css3", "name": "CSS3", "type": "devicon" },
+      {
+        "key": "microsoftsqlserver",
+        "name": "MSSQL",
+        "type": "devicon"
+      },
       { "key": "git", "name": "Git(Hub)", "type": "devicon" }
     ]
   },
@@ -29,7 +35,7 @@
     "project": "Tom & Journey",
     "url": "https://github.com/nshpam/TomAndJourney?tab=readme-ov-file",
     "repo": "Private",
-    "descriptionTitle": "Tom & Journey is a user-friendly travel planning website. Tailored for ease of use.",
+    "descriptionTitle": "A user-friendly travel planning website. Tailored for ease of use.",
     "description": "",
     "imageOptions": [],
     "href": "https://github.com/nshpam/TomAndJourney?tab=readme-ov-file",
@@ -46,6 +52,34 @@
       { "key": "php", "name": "PHP", "type": "devicon" },
       { "key": "javascript", "name": "JavaScript", "type": "devicon" },
       { "key": "jquery", "name": "jQuery", "type": "devicon" },
+      { "key": "bootstrap", "name": "Bootstrap", "type": "devicon" },
+      { "key": "html5", "name": "HTML5", "type": "devicon" },
+      { "key": "css3", "name": "CSS3", "type": "devicon" },
+      { "key": "git", "name": "Git(Hub)", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "Friendly Tax",
+    "url": "https://github.com/ThanabodeeSaepui/friendly-tax-site?tab=readme-ov-file",
+    "repo": "Private",
+    "descriptionTitle": "A web-based financial and tax advisory platform.",
+    "description": "",
+    "imageOptions": [],
+    "href": "https://github.com/ThanabodeeSaepui/friendly-tax-site?tab=readme-ov-file",
+    "images": [
+      {
+        "key": "mock-stack",
+        "hover": "left",
+        "h": "300",
+        "w": "500",
+        "url": "/img/friendlytax.png"
+      }
+    ],
+    "stack": [
+      { "key": "typescript", "name": "Typescript", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "daisyUI", "name": "daisyUI", "type": "devicon" },
+      { "key": "amazonwebservices", "name": "AWS-S3", "type": "devicon" },
       { "key": "html5", "name": "HTML5", "type": "devicon" },
       { "key": "css3", "name": "CSS3", "type": "devicon" },
       { "key": "git", "name": "Git(Hub)", "type": "devicon" }
