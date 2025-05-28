@@ -31,7 +31,7 @@ export default function Technical() {
           id="skill"
           title="Skills"
           preTitle="Proficiency"
-          subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+          subTitle="Tools, Languages, and Frameworks I Excel In"
         />
         <section className={`${about.content} ${about.container}`}>
           <div className={about.copy}>

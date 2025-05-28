@@ -20,7 +20,7 @@ export default function FeaturedProjects() {
       <Container spacing={"verticalXXXXLrg"}>
         <SectionTitle
           title="Featured Projects"
-          preTitle="Software Engineering"
+          preTitle="Real-World Solutions"
           subTitle="Built with modern stacks, scalable architecture, and performance in mind."
         />{" "}
         {content.map((data, index) => {
