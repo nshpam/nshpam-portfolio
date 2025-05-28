@@ -117,4 +117,5 @@ const frameworks = [
   { key: "firebase", name: "firebase", type: "devicon" },
   { key: "arduino", name: "arduino", type: "devicon" },
   { key: "graphql", name: "graphql", type: "devicon" },
+  { key: "microsoftsqlserver", name: "mssql", type: "devicon" },
 ];

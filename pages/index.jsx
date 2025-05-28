@@ -4,6 +4,7 @@ import About from "../components/sections/index/about";
 import Technical from "../components/sections/index/technical";
 import Career from "../components/sections/index/career";
 import FeaturedProjects from "../components/sections/projects/featured";
+import Competition from "../components/sections/index/competition";
 
 import Color from "../components/utils/page.colors.util";
 
@@ -18,8 +19,9 @@ export default function HomePage() {
       {/* <Looking /> */}
       <About />
       <Technical />
+      <Career />
+      <Competition />
       <FeaturedProjects />
-      {/* <Career /> */}
     </>
   );
 }

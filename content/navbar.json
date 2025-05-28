@@ -2,5 +2,6 @@
   { "url": "about", "title": "About Me" },
   { "url": "skill", "title": "Skill" },
   { "url": "education", "title": "Education" },
+  { "url": "exp", "title": "Experience" },
   { "url": "feature", "title": "Projects" }
 ]
