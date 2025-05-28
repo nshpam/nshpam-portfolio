@@ -111,6 +111,7 @@ export default function Career() {
                       href="https://drive.google.com/file/d/1cZF5B-hAWmg0avIbZeX_br89rCAUTH6w/view"
                       className={career.link}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       click here
                     </a>
@@ -167,6 +168,7 @@ export default function Career() {
                       href="https://ketchuptutor.co/th"
                       className={career.link}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       click here
                     </a>
@@ -177,71 +179,6 @@ export default function Career() {
                   block="stack"
                   fullContainer="fullContainer"
                 />
-              </div>
-              <div className={career.positionAlt}></div>
-            </div>
-          </article>
-
-          <article className={career.company}>
-            <div className={career.companyContent}>
-              <span className={career.companyHeader}>
-                <h3>Electronic Transactions Development Agency (ETDA)</h3>
-                <h4>Internship Full-time</h4>
-                <h4>May 2023 - July 2023</h4>
-                <h5>Bangkok, Thailand</h5>
-              </span>
-              <p>
-                The ETDA is an organization designed to promote and drive
-                Thailand’s economy and society to become a digital economy and
-                society in which all sectors can conduct reliable transactions
-                online with confidence, security and safety.
-              </p>
-            </div>
-            <div className={career.companyAlt}></div>
-          </article>
-          <article className={career.companyPositions}>
-            <div className={career.position}>
-              <div className={career.positionContent}>
-                <span class={career.positionHeader}>
-                  <h3>Full Stack Developer (Innovation Team)</h3>
-                  <h4>May 2023 - July 2023</h4>
-                </span>
-                <ul className={career.list}>
-                  <li>
-                    <span className={career.subList}>
-                      <span className={career.bullet}></span>Collaborated in
-                      developing a Smart Contract prototype using JINDA token on
-                      TBSI, using JavaScript with React, Bootstrap, Express.js,
-                      Solidity, Ganache, Truffle, and Metamask.
-                    </span>
-                  </li>
-                </ul>
-                <Badges
-                  list={etda_fullstack}
-                  block="stack"
-                  fullContainer="fullContainer"
-                />
-              </div>
-              <div className={career.positionAlt}></div>
-            </div>
-          </article>
-          <article className={career.companyPositions}>
-            <div className={career.position}>
-              <div className={career.positionContent}>
-                <span class={career.positionHeader}>
-                  <h3>Researcher (Innovation Team)</h3>
-                  <h4>May 2023 - July 2023</h4>
-                </span>
-                <ul className={career.list}>
-                  <li>
-                    <span className={career.subList}>
-                      <span className={career.bullet}></span>Conducted research
-                      on Thai Blockchain Services Infrastructure (TBSI), smart
-                      contracts, e-documents, e-stamps, digital signatures,
-                      Certificate Authority (CA), and ISO-32000 compliant PDFs.
-                    </span>
-                  </li>
-                </ul>
               </div>
               <div className={career.positionAlt}></div>
             </div>
@@ -277,10 +214,10 @@ export default function Career() {
                   <li>
                     <span className={career.subList}>
                       <span className={career.bullet}></span>Redefined the
-                      club's identity with a new website, logo, T-shirt, and
-                      project showcase, which boosted visibility, expanded
+                      club&apos;s identity with a new website, logo, T-shirt,
+                      and project showcase, which boosted visibility, expanded
                       membership by 38% (from 58 to 80) and generated 12,000 THB
-                      in funds for the next year's club committee.
+                      in funds for the next year&apos;s club committee.
                     </span>
                   </li>
                   <li>
@@ -354,6 +291,71 @@ export default function Career() {
                       <span className={career.bullet}></span>Explored Ming Chi
                       University and Formosa Plastic Group, gaining insights
                       into Taiwan’s industry.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className={career.positionAlt}></div>
+            </div>
+          </article>
+
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
+                <h3>Electronic Transactions Development Agency (ETDA)</h3>
+                <h4>Internship Full-time</h4>
+                <h4>May - Jul 2023</h4>
+                <h5>Bangkok, Thailand</h5>
+              </span>
+              <p>
+                The ETDA is an organization designed to promote and drive
+                Thailand’s economy and society to become a digital economy and
+                society in which all sectors can conduct reliable transactions
+                online with confidence, security and safety.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+          <article className={career.companyPositions}>
+            <div className={career.position}>
+              <div className={career.positionContent}>
+                <span class={career.positionHeader}>
+                  <h3>Full Stack Developer (Innovation Team)</h3>
+                  <h4>May - Jul 2023</h4>
+                </span>
+                <ul className={career.list}>
+                  <li>
+                    <span className={career.subList}>
+                      <span className={career.bullet}></span>Collaborated in
+                      developing a Smart Contract prototype using JINDA token on
+                      TBSI, using JavaScript with React, Bootstrap, Express.js,
+                      Solidity, Ganache, Truffle, and Metamask.
+                    </span>
+                  </li>
+                </ul>
+                <Badges
+                  list={etda_fullstack}
+                  block="stack"
+                  fullContainer="fullContainer"
+                />
+              </div>
+              <div className={career.positionAlt}></div>
+            </div>
+          </article>
+          <article className={career.companyPositions}>
+            <div className={career.position}>
+              <div className={career.positionContent}>
+                <span class={career.positionHeader}>
+                  <h3>Researcher (Innovation Team)</h3>
+                  <h4>May 2023 - Jul 2023</h4>
+                </span>
+                <ul className={career.list}>
+                  <li>
+                    <span className={career.subList}>
+                      <span className={career.bullet}></span>Conducted research
+                      on Thai Blockchain Services Infrastructure (TBSI), smart
+                      contracts, e-documents, e-stamps, digital signatures,
+                      Certificate Authority (CA), and ISO-32000 compliant PDFs.
                     </span>
                   </li>
                 </ul>

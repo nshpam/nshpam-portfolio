@@ -34,6 +34,36 @@ export default function Competition() {
           <article className={career.company}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
+                <h3>
+                  IT Consultant for &quot;Hiew Hopping&quot; Project, Zero to
+                  One Program – SCG
+                </h3>
+                <h4>Dec 2024 - Jan 2025</h4>
+                <h5>Bangkok, Thailand</h5>
+              </span>
+              <p>
+                ZERO TO ONE is an innovation and entrepreneurship development
+                program organized by SCG to empower young talents in
+                transforming ideas into viable business solutions. As a
+                participant, I collaborated with a multidisciplinary team named
+                Hiew Hopping, consisting of a Hacker (my role), Hustler, and
+                Hipster—a balanced startup team model designed to foster
+                innovation. Our project aimed to solve the problem of long food
+                wait times by introducing a next-generation food truck concept.
+                The solution featured a digital platform that allowed customers
+                to pre-order finish-to-eat meals from a curated daily menu. This
+                model enhanced convenience and operational efficiency, offering
+                a seamless and timely dining experience. The program provided
+                hands-on experience in startup development, user-focused design,
+                and agile collaboration within a business-oriented environment.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
                 <h3>Chula Legaltech</h3>
                 <h5>Bangkok, Thailand</h5>
               </span>
@@ -160,6 +190,145 @@ export default function Competition() {
           <article className={career.company}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
+                <h3>
+                  2024 International Capstone Design Project for Smart Mobility
+                  (ICDP)
+                </h3>
+                <h4>Jan 2024</h4>
+                <h5>Bangkok, Thailand</h5>
+              </span>
+              <p>
+                The International Collaborative Development Program (ICDP) is a
+                joint initiative between our university and a partner
+                institution from Korea, aimed at fostering cross-cultural
+                collaboration and innovation in smart technology. This 10-day
+                workshop brought together Thai and Korean students to work on
+                interdisciplinary projects related to emerging technologies,
+                including basic artificial intelligence, autonomous systems,
+                smart care, and smart mobility. As part of the program, our team
+                developed and presented a project titled Capable Taxi—an
+                autonomous transportation solution designed specifically for
+                individuals with disabilities. The system verifies users via
+                their PWD (Persons with Disabilities) ID card and includes a
+                specialized safety platform to assist with boarding and
+                traveling securely. The ICDP workshop provided valuable hands-on
+                experience in robotics, inclusive design, and international
+                teamwork.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
+                <h3>
+                  Master of Ceremonies at Engineering International Party 2023
+                </h3>
+                <h4>Aug 2023</h4>
+                <h5>Bangkok, Thailand</h5>
+              </span>
+              <p>
+                The Engineering International Party is a cultural exchange event
+                designed to promote inclusivity, friendship, and global
+                understanding among students from various countries. I had the
+                honor of serving as the Master of Ceremonies for this event,
+                where my role involved guiding the program, entertaining the
+                audience, and fostering connections among attendees.
+                Participants from countries such as Bhutan, Myanmar, Pakistan,
+                and India joined the celebration, making it a vibrant platform
+                for intercultural interaction. Through this experience, I
+                facilitated the sharing of Thai traditions while also learning
+                about the diverse cultures represented, contributing to a warm
+                and memorable event atmosphere.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
+                <h3>ICIT Google App Sheet Hackathon 2023</h3>
+                <h4>Dec 2022 - Feb 2023</h4>
+                <h5>Bangkok, Thailand</h5>
+              </span>
+              <p>
+                This activity was part of a university-wide competition aimed at
+                identifying and solving internal challenges within the academic
+                environment through the use of digital tools. Participants were
+                tasked with developing practical, technology-driven solutions to
+                address real-world issues faced by students, faculty, and
+                administrative units. My team focused on enhancing interfaculty
+                collaboration, a commonly overlooked challenge within the
+                university. Using Appsheet, a no-code application development
+                platform, we designed a solution to streamline communication and
+                workflow between different departments. Our project was
+                recognized for its impact and feasibility, earning 3rd prize
+                from the judging committee. This experience emphasized the
+                importance of cross-functional insight, problem-solving, and the
+                effective application of digital tools to drive institutional
+                improvement.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
+                <h3>Lead Organizer of Computer Boost Camp 2023</h3>
+                <h4>Jun 2023 - Jul 2023</h4>
+                <h5>Bangkok, Thailand</h5>
+              </span>
+              <p>
+                The Computer Boot Camp is an educational outreach program
+                jointly organized by the Computer Club and the Computer
+                Engineering department, aimed at equipping new students with
+                fundamental programming skills. Designed to ease the transition
+                into the computer engineering curriculum, the camp offers
+                structured instruction in Python—widely regarded as a
+                foundational language in the field—along with an introduction to
+                basic bash commands. The program is tailored to accommodate
+                varying skill levels, with sessions divided into Beginner and
+                Intermediate tracks. By focusing on practical, hands-on
+                learning, the camp plays a vital role in building confidence and
+                competence among incoming students.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
+                <h3>Woman Thailand Cyber Top Talent 2023</h3>
+                <h4>Dec 2023</h4>
+                <h5>Bangkok, Thailand</h5>
+              </span>
+              <p>
+                Women Thailand Cyber Top Talent (WTCTT) 2023 is a national-level
+                cybersecurity competition designed to promote and recognize the
+                talents of female students in the field of cybersecurity. The
+                competition challenges participants with real-world problems
+                across multiple domains, including digital forensics, web
+                application exploitation, reverse engineering, network security,
+                mobile security, and cryptography. In our first year of
+                participation, my teammate Napawan Nakasuwan and I dedicated
+                significant time to prepare across all key topics. Although we
+                did not advance to the final round, we achieved an impressive
+                4th place ranking in the senior division at the national level.
+                This experience strengthened our technical skills, fostered
+                teamwork under pressure, and deepened our passion for
+                cybersecurity and ethical hacking.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
                 <h3>Charoen Pokphand Foods PCL (CPF)</h3>
                 <h4>Dec 2024 - Jan 2025</h4>
                 <h5>Bangkok, Thailand</h5>
@@ -179,48 +348,6 @@ export default function Competition() {
               </p>
             </div>
             <div className={career.companyAlt}></div>
-          </article>
-          <article className={career.companyPositions}>
-            <div className={career.position}>
-              <div className={career.positionContent}>
-                <span class={career.positionHeader}>
-                  <h3>Project Manager of Animed</h3>
-                  <h4>Jan - Mar 2023</h4>
-                </span>
-                <ul className={career.list}>
-                  <li>
-                    <span className={career.subList}>
-                      <span className={career.bullet}></span>Led a team of
-                      developers in the CPF Young Software Developer Program to
-                      create AI-powered solutions for farm animal drug
-                      identification (Animed).
-                    </span>
-                  </li>
-                  <li>
-                    <span className={career.subList}>
-                      <span className={career.bullet}></span>Developed back-end
-                      solutions in Image Augmentation, and conducted research on
-                      OpenCV and AI for enhanced image processing and drug
-                      detection.
-                    </span>
-                  </li>
-                  <li>
-                    <span className={career.subList}>
-                      <span className={career.bullet}></span>Designed a mobile
-                      app for farm animal drug identification using Python and
-                      Kotlin, helping the team secure 100,000 THB in faculty
-                      funding.
-                    </span>
-                  </li>
-                </ul>
-                <Badges
-                  list={animed}
-                  block="stack"
-                  fullContainer="fullContainer"
-                />
-              </div>
-              <div className={career.positionAlt}></div>
-            </div>
           </article>
           <article className={career.companyPositions}>
             <div className={career.position}>
@@ -264,175 +391,47 @@ export default function Competition() {
               <div className={career.positionAlt}></div>
             </div>
           </article>
-
-          <article className={career.company}>
-            <div className={career.companyContent}>
-              <span className={career.companyHeader}>
-                <h3>
-                  Master of Ceremonies at Engineering International Party 2023
-                </h3>
-                <h4>Aug 2023</h4>
-                <h5>Bangkok, Thailand</h5>
-              </span>
-              <p>
-                The Engineering International Party is a cultural exchange event
-                designed to promote inclusivity, friendship, and global
-                understanding among students from various countries. I had the
-                honor of serving as the Master of Ceremonies for this event,
-                where my role involved guiding the program, entertaining the
-                audience, and fostering connections among attendees.
-                Participants from countries such as Bhutan, Myanmar, Pakistan,
-                and India joined the celebration, making it a vibrant platform
-                for intercultural interaction. Through this experience, I
-                facilitated the sharing of Thai traditions while also learning
-                about the diverse cultures represented, contributing to a warm
-                and memorable event atmosphere.
-              </p>
+          <article className={career.companyPositions}>
+            <div className={career.position}>
+              <div className={career.positionContent}>
+                <span class={career.positionHeader}>
+                  <h3>Project Manager of Animed</h3>
+                  <h4>Jan - Mar 2023</h4>
+                </span>
+                <ul className={career.list}>
+                  <li>
+                    <span className={career.subList}>
+                      <span className={career.bullet}></span>Led a team of
+                      developers in the CPF Young Software Developer Program to
+                      create AI-powered solutions for farm animal drug
+                      identification (Animed).
+                    </span>
+                  </li>
+                  <li>
+                    <span className={career.subList}>
+                      <span className={career.bullet}></span>Developed back-end
+                      solutions in Image Augmentation, and conducted research on
+                      OpenCV and AI for enhanced image processing and drug
+                      detection.
+                    </span>
+                  </li>
+                  <li>
+                    <span className={career.subList}>
+                      <span className={career.bullet}></span>Designed a mobile
+                      app for farm animal drug identification using Python and
+                      Kotlin, helping the team secure 100,000 THB in faculty
+                      funding.
+                    </span>
+                  </li>
+                </ul>
+                <Badges
+                  list={animed}
+                  block="stack"
+                  fullContainer="fullContainer"
+                />
+              </div>
+              <div className={career.positionAlt}></div>
             </div>
-            <div className={career.companyAlt}></div>
-          </article>
-
-          <article className={career.company}>
-            <div className={career.companyContent}>
-              <span className={career.companyHeader}>
-                <h3>Lead Organizer of Computer Boost Camp 2023</h3>
-                <h4>Jun 2023 - Jul 2023</h4>
-                <h5>Bangkok, Thailand</h5>
-              </span>
-              <p>
-                The Computer Boot Camp is an educational outreach program
-                jointly organized by the Computer Club and the Computer
-                Engineering department, aimed at equipping new students with
-                fundamental programming skills. Designed to ease the transition
-                into the computer engineering curriculum, the camp offers
-                structured instruction in Python—widely regarded as a
-                foundational language in the field—along with an introduction to
-                basic bash commands. The program is tailored to accommodate
-                varying skill levels, with sessions divided into Beginner and
-                Intermediate tracks. By focusing on practical, hands-on
-                learning, the camp plays a vital role in building confidence and
-                competence among incoming students.
-              </p>
-            </div>
-            <div className={career.companyAlt}></div>
-          </article>
-
-          <article className={career.company}>
-            <div className={career.companyContent}>
-              <span className={career.companyHeader}>
-                <h3>
-                  2024 International Capstone Design Project for Smart Mobility
-                  (ICDP)
-                </h3>
-                <h4>Jan 2024</h4>
-                <h5>Bangkok, Thailand</h5>
-              </span>
-              <p>
-                The International Collaborative Development Program (ICDP) is a
-                joint initiative between our university and a partner
-                institution from Korea, aimed at fostering cross-cultural
-                collaboration and innovation in smart technology. This 10-day
-                workshop brought together Thai and Korean students to work on
-                interdisciplinary projects related to emerging technologies,
-                including basic artificial intelligence, autonomous systems,
-                smart care, and smart mobility. As part of the program, our team
-                developed and presented a project titled Capable Taxi—an
-                autonomous transportation solution designed specifically for
-                individuals with disabilities. The system verifies users via
-                their PWD (Persons with Disabilities) ID card and includes a
-                specialized safety platform to assist with boarding and
-                traveling securely. The ICDP workshop provided valuable hands-on
-                experience in robotics, inclusive design, and international
-                teamwork.
-              </p>
-            </div>
-            <div className={career.companyAlt}></div>
-          </article>
-
-          <article className={career.company}>
-            <div className={career.companyContent}>
-              <span className={career.companyHeader}>
-                <h3>
-                  IT Consultant for "Hiew Hopping" Project, Zero to One Program
-                  – SCG
-                </h3>
-                <h4>Freelance</h4>
-                <h4>Dec 2024 - Jan 2025</h4>
-                <h5>Bangkok, Thailand</h5>
-              </span>
-              <p>
-                ZERO TO ONE is an innovation and entrepreneurship development
-                program organized by SCG to empower young talents in
-                transforming ideas into viable business solutions. As a
-                participant, I collaborated with a multidisciplinary team named
-                Hiew Hopping, consisting of a Hacker (my role), Hustler, and
-                Hipster—a balanced startup team model designed to foster
-                innovation. Our project aimed to solve the problem of long food
-                wait times by introducing a next-generation food truck concept.
-                The solution featured a digital platform that allowed customers
-                to pre-order finish-to-eat meals from a curated daily menu. This
-                model enhanced convenience and operational efficiency, offering
-                a seamless and timely dining experience. The program provided
-                hands-on experience in startup development, user-focused design,
-                and agile collaboration within a business-oriented environment.
-              </p>
-            </div>
-            <div className={career.companyAlt}></div>
-          </article>
-
-          <article className={career.company}>
-            <div className={career.companyContent}>
-              <span className={career.companyHeader}>
-                <h3>ICIT Google App Sheet Hackathon 2023</h3>
-                <h4>Dec 2022 - Feb 2023</h4>
-                <h5>Bangkok, Thailand</h5>
-              </span>
-              <p>
-                This activity was part of a university-wide competition aimed at
-                identifying and solving internal challenges within the academic
-                environment through the use of digital tools. Participants were
-                tasked with developing practical, technology-driven solutions to
-                address real-world issues faced by students, faculty, and
-                administrative units. My team focused on enhancing interfaculty
-                collaboration, a commonly overlooked challenge within the
-                university. Using Appsheet, a no-code application development
-                platform, we designed a solution to streamline communication and
-                workflow between different departments. Our project was
-                recognized for its impact and feasibility, earning 3rd prize
-                from the judging committee. This experience emphasized the
-                importance of cross-functional insight, problem-solving, and the
-                effective application of digital tools to drive institutional
-                improvement.
-              </p>
-            </div>
-            <div className={career.companyAlt}></div>
-          </article>
-
-          <article className={career.company}>
-            <div className={career.companyContent}>
-              <span className={career.companyHeader}>
-                <h3>Woman Thailand Cyber Top Talent 2023</h3>
-                <h4>Dec 2023</h4>
-                <h5>Bangkok, Thailand</h5>
-              </span>
-              <p>
-                Women Thailand Cyber Top Talent (WTCTT) 2023 is a national-level
-                cybersecurity competition designed to promote and recognize the
-                talents of female students in the field of cybersecurity. The
-                competition challenges participants with real-world problems
-                across multiple domains, including digital forensics, web
-                application exploitation, reverse engineering, network security,
-                mobile security, and cryptography. In our first year of
-                participation, my teammate Napawan Nakasuwan and I dedicated
-                significant time to prepare across all key topics. Although we
-                did not advance to the final round, we achieved an impressive
-                4th place ranking in the senior division at the national level.
-                This experience strengthened our technical skills, fostered
-                teamwork under pressure, and deepened our passion for
-                cybersecurity and ethical hacking.
-              </p>
-            </div>
-            <div className={career.companyAlt}></div>
           </article>
         </section>
       </Container>
