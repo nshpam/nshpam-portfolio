@@ -50,7 +50,6 @@ export default function About() {
             />
             {/* </div> */}
           </div>
-
           {/* <div className={about.copy}>
             <CopyBlock
               title="Softskills that pay the bills"

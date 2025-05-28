@@ -13,6 +13,7 @@ import SectionGridBg from "../../blocks/section.grid.block";
 
 // Career scss
 import career from "../../../styles/sections/index/career.module.scss";
+import css from "../../../styles/sections/projects/featured.module.scss";
 
 /**
  * Section: Career
@@ -362,6 +363,24 @@ export default function Career() {
           </article>
         </section>
       </Container>
+      <div className={css.bgContainer}>
+        <span className={css.orbitalBg}>
+          <span class={`${css.bgSection}`}>
+            <span
+              className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}
+            ></span>
+          </span>
+          <span class={`${css.bgSection}`}>
+            <span className={`${css.bgInner} ${css.heroCenter}`}></span>
+          </span>
+          <span class={`${css.bgSection}`}>
+            <span
+              className={`${css.bgInner} ${css.heroRight} ${css.heroOrbital}`}
+            ></span>
+          </span>
+        </span>
+        <span className={css.afterGlowBg}></span>
+      </div>
     </Section>
   );
 }
