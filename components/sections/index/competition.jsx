@@ -25,7 +25,7 @@ export default function Competition() {
     <Section classProp={`${career.section} borderBottom`}>
       <Container spacing={["verticalXXXLrg"]}>
         <SectionTitle
-          id="competition"
+          id="act"
           title="Activities"
           preTitle="Beyond the Classroom"
           subTitle="Leadership, Collaboration, and Community in Action"

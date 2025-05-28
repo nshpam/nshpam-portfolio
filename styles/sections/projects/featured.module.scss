@@ -288,41 +288,29 @@
       }
 
       .imageContainer {
-        height: 100px;
+        height: 200px;
         width: 100%;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        position: relative;
+        // overflow: hidden;
       }
 
-      .imageAnimationContainer {
-        height: calc(100% + 6rem);
-        width: 100%;
-
-        > div > div {
-          > span {
-            img {
-              width: calc(556px / 2) !important;
-            }
-          }
-        }
+      .imageAnimationContainer2 {
+        height: 100%; /* Fill the container height */
+        width: auto; /* Let the image size naturally */
+        display: flex;
+        align-items: center; /* Vertically center image */
+        justify-content: center; /* Horizontally center image */
       }
-    }
 
-    &:nth-of-type(2n + 1) {
-      .imageAnimationContainer {
-        > div > div {
-          > span {
-            right: 2rem;
-          }
-        }
-      }
-    }
-
-    &:nth-of-type(2n) {
-      .imageAnimationContainer {
-        > div > div {
-          > span {
-            right: 0rem;
-          }
-        }
+      .imageAnimationContainer2 img {
+        height: 100%; /* Image scales to 100px */
+        width: auto !important; /* Maintain aspect ratio */
+        object-fit: contain;
+        display: block;
+        margin-left: 10px;
       }
     }
   }

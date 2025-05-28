@@ -5,6 +5,7 @@ import Technical from "../components/sections/index/technical";
 import Career from "../components/sections/index/career";
 import FeaturedProjects from "../components/sections/projects/featured";
 import Competition from "../components/sections/index/competition";
+import Education from "../components/sections/index/education";
 
 import Color from "../components/utils/page.colors.util";
 
@@ -19,6 +20,7 @@ export default function HomePage() {
       {/* <Looking /> */}
       <About />
       <Technical />
+      <Education />
       <Career />
       <Competition />
       <FeaturedProjects />
