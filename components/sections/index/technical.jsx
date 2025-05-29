@@ -36,7 +36,7 @@ export default function Technical() {
         <section className={`${about.content} ${about.container}`}>
           <div className={about.copy}>
             <BadgesBlock
-              title="Programming Languagues"
+              title="Programming Languages"
               copy=""
               list={lang}
               block="tech"
