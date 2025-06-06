@@ -47,7 +47,7 @@ export default function Certificate() {
             </div>
             <div className={certificate.companyContent}>
               <span className={certificate.companyHeader}>
-                <h3>Python (Basic) Certificate</h3>
+                <h3>React (Basic) Certificate</h3>
                 <h5>HackerRank</h5>
               </span>
               <Image
