@@ -96,6 +96,17 @@ export default function Hero() {
           >
             Github
           </button>
+          <button
+            className={`button ${button.secondary} leaveSite`}
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1Y_yT4nUf_on7e-Sa0WR7LZpRy9bjL43t/view?usp=sharing",
+                "_blank"
+              )
+            }
+          >
+            Portfolio
+          </button>
         </section>
       </Container>
       <HeroBg theme="bg-color-1" />
